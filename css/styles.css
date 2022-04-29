@@ -1,0 +1,121 @@
+body{
+    font-family: 'Roboto',
+    sans-serif;
+}
+.header{
+    background-color: #ffffff;
+}
+/* лого */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo2 {
+    color: #000;
+}
+
+/* шапка */
+.link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.not-visible {
+    visibility: hidden;
+}
+
+.item-link {
+    color: #2196F3;
+}
+.link-contact {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+/* кнопки */
+
+button {
+    font-family: inherit;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+button:focus{
+    background-color: #2196F3;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/* примеры работ */
+.item-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.item-option {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/* футер */
+footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
+}
+.logo-footer{
+    color: #ffffff; 
+}
+address {
+    font-style: normal;
+    text-decoration: none; 
+
+}
+.footer-item-adress{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-item-contacts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
