@@ -71,12 +71,11 @@ button:focus{
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-button:hover{
+button:hover {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,
-    14;
+    line-height: 1, 14;
     letter-spacing: 0.02em;
     color: var(--blue-clr-element);
     text-decoration: none;
@@ -97,7 +96,7 @@ button{
 }
 
 
-.element:hover {
+.element:hover{
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
